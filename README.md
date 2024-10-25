@@ -1,7 +1,7 @@
 # Excel 16-Bit CPU
 The Excel 16-Bit CPU repository contains the following main files:
 ```
-CPU.xlsx - The main spreadsheet which contains the CPU
+CPU.xlsx - The main spreadsheet which contains the System on Sheet
 ROM.xlsx - The ROM spreadsheet used read by the CPU when the read ROM switch is turned on
 InstructionSet.xlsx - Explains the ISA of the CPU
 compileExcelASM16.py - The Excel-ASM16 compiler
@@ -9,7 +9,16 @@ Excel-ASM16.xml - Markdown for the Excel-ASM16 language compatible with Notepad+
 Sample Programs - Folder of sample programs for the Excel CPU
 ```
 
-The CPU.xlsx file features a 16-bit CPU, 16 general purpose registers, 128KB of RAM, and a 128x128 display.
+The CPU.xlsx file will feature a dual-core 16-bit CPU, 32 general purpose registers, 128KB of RAM, and a 128x128 display.
+The 150 SoS(System on Sheet) has 2x Cores and 2x Registers. Well, if I update it.
+Currently: Single-Core 16-Bit CPU, 16 General Purpose Registers, 128KB RAM, and a 128x128 display.
+
+Parts Used: 
+SoC 150: 
+    CPU 150 - 2 Core, 32 General Purpose Registers
+    32 General Purpuse Registers
+    RAM 128KB - 124KB Useable, 4KB Display Reserved
+Display 100 - 128 x 128, 16 Colors
 
 Iterative Calcuation must be turned on. This can be done by going to File -> Options -> Formulas -> then Enable Iterative Calculation and **set Maximum Iterations to 1**
 
